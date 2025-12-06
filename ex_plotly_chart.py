@@ -4,6 +4,7 @@ import seaborn as sns
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
+st.title("개인적으로 streamlit 학습 시작")
 
 @st.cache_data
 def load_data():
@@ -39,4 +40,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
